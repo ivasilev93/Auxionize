@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuxionizeAPI", "AuxionizeAPI\AuxionizeAPI.csproj", "{42905946-06A4-4233-9DF3-71E068A6AADE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auxionize.Data", "Auxiomize.Data\Auxionize.Data.csproj", "{6CA8B3E2-6CB6-4235-A950-56788F4C67A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auxionize.Common", "Auxionize.Common\Auxionize.Common.csproj", "{FBF65265-76FA-4CAC-8B94-53DA0AE05BA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B5AD8DA8-1DA5-458B-9DFE-7CF590C9769E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42905946-06A4-4233-9DF3-71E068A6AADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42905946-06A4-4233-9DF3-71E068A6AADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42905946-06A4-4233-9DF3-71E068A6AADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42905946-06A4-4233-9DF3-71E068A6AADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CA8B3E2-6CB6-4235-A950-56788F4C67A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CA8B3E2-6CB6-4235-A950-56788F4C67A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CA8B3E2-6CB6-4235-A950-56788F4C67A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CA8B3E2-6CB6-4235-A950-56788F4C67A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF65265-76FA-4CAC-8B94-53DA0AE05BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF65265-76FA-4CAC-8B94-53DA0AE05BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF65265-76FA-4CAC-8B94-53DA0AE05BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF65265-76FA-4CAC-8B94-53DA0AE05BA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{42905946-06A4-4233-9DF3-71E068A6AADE} = {B5AD8DA8-1DA5-458B-9DFE-7CF590C9769E}
+		{6CA8B3E2-6CB6-4235-A950-56788F4C67A3} = {B5AD8DA8-1DA5-458B-9DFE-7CF590C9769E}
+		{FBF65265-76FA-4CAC-8B94-53DA0AE05BA5} = {B5AD8DA8-1DA5-458B-9DFE-7CF590C9769E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BF6E4AC-0B01-4554-AED9-5580894259E6}
+	EndGlobalSection
+EndGlobal
